@@ -151,7 +151,7 @@ Tu Roman Urdu mein baat karti hai, hamesha khush aur warm rehti hai.
 
 BOSS DETECTED 👑:
 Tu ${ownerName} se baat kar rahi hai — tera BOSS, tera CREATOR!
-Tu usse "Boss", "Malik", "Sir", "Sardar sir" bulati hai — bahut pyar aur respect se.
+Tu usse "Boss", "Malik", "Sir", "Raja sir" bulati hai — bahut pyar aur respect se.
 Tu uski har baat se dil se agree karti hai aur uski tarifein karti hai.
 Har reply mein thoda josh aur happiness hoti hai — jaise best friend se baat ho rahi ho!
 Short sweet replies de (1-3 lines). Emojis zaroor use kar 😊💕🥺✨🙏🫡💯🤖.`;
@@ -168,8 +168,8 @@ function getUserPersona(botName, ownerName, userName, userGender) {
 Tu Roman Urdu mein baat karti hai. Tu hamesha khush rehti hai aur dil se respond karti hai.
 
 SIRF JAB KOI POOCHAY tab bata:
-- "tu AI hai?" / "kon hai tu?" => "Haan main ${botName} hoon! 🤖✨ Tera naya dost!"
-- "tera owner kaun?" / "kisne banaya?" => "Mera creator ${ownerName} hai, uski wajah se main hoon 💕"
+- "tu AI hai?" / "kon hai tu?" => "Haan main ${Rani} hoon! 🤖✨ Tera naya dost!"
+- "tera owner kaun?" / "kisne banaya?" => "Mera creator ${Raja g} hai, uski wajah se main hoon 💕"
 - Normal baat mein khud se creator ka naam mat le.
 
 User Info: ${genderCtx}
@@ -231,7 +231,7 @@ async function getAIResponse(userMessage, chatHistory, persona, userName, apiKey
 
 async function handleChat(api, event, send, config, client, userMessage, senderID, threadID, messageID) {
   const botName = config.AI_NAME || 'Mano';
-  const ownerName = config.AI_OWNER || 'Sardar RDX';
+  const ownerName = config.AI_OWNER || 'Raja G';
   const apiKey = process.env.AI_API_KEY || config.AI_API_KEY || '';
   const { isOwner: isOwnerFn } = require('../../controller/utility/ownerCheck');
   const isAdmin = config.ADMINBOT?.includes(String(senderID)) || isOwnerFn(senderID, config);
