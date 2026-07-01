@@ -82,7 +82,7 @@ module.exports = {
       "Bolo bolo sun rha hu 😌",
       "Kia chahiye tumhe 🙄",
       "Acha acha samajh gaya bolo 😏",
-      "Yahan hu mai 🤗",
+      "Raja mera boss ha i smjh 😾",
       "Kia hua bata do mujhe 😇",
       "Haan janeman bolo 💁",
       "Dekh rha tha tujhe hi 😒",
