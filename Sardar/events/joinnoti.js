@@ -43,18 +43,18 @@ module.exports = {
                 `𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐰 𝐀𝐜𝐭𝐢𝐯𝐞 ✅`;
 
             const msg2 =
-                `┏━━━ ⚡ 𝐑𝐃𝐗 𝐁𝐎𝐓 ⚡ ━━━┓\n` +
+                `┏━━━ ⚡ 𝗥𝗔𝗝𝗔 𝗚 𝐁𝐎𝐓 ⚡ ━━━┓\n` +
                 `┃                           \n` +
-                `┃  🌹 ꧁𝐒𝐀𝐑𝐃𝐀𝐑 𝐑𝐃𝐗꧂ 🌹  \n` +
+                `┃  🌹 ꧁𝗥𝗔𝗝𝗔 𝗚꧂ 🌹  \n` +
                 `┃                           \n` +
                 `┃   ✨ 𝐒𝐘𝐒𝐓𝐄𝐌 𝐋𝐈𝐕𝐄 ✨    \n` +
                 `┃                           \n` +
                 `┣━━━━━━━━━━━━━━━━━━┫\n` +
                 `┃ 👑 𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎            \n` +
-                `┃ 👤 Sardar RDX             \n` +
-                `┃ 🌐 fb.com/Sardar.RDX.786  ┃\n` +
-                ` 📞 +923301068874          \n` +
-                `✈️ Telegram: @SardarRDX7  \n` +
+                `┃ 👤 Raja G             \n` +
+                `┃ 🌐 fb.com/Raja.RDX.786  ┃\n` +
+                ` 📞 +923709690437          \n` +
+                `✈️ Telegram: @RajaRDX7  \n` +
                 `┣━━━━━━━━━━━━━━━━━━━┫\n` +
                 `┃ 🏠 Group : ${threadName.slice(0, 18)}\n` +
                 `┃ 📅 Date  : ${date}\n` +
@@ -65,7 +65,7 @@ module.exports = {
                 `┃ 📍 Add dev to keep bot    \n` +
                 `┃ 📍 ${config.PREFIX}help — all commands     \n` +
                 `┗━━━━━━━━━━━━━━━━━━━┛\n` +
-                `  🎀🌸 𝐒𝐀𝐑𝐃𝐀𝐑 𝐑𝐃𝐗 𝐁𝐎𝐓 🌸🎀`;
+                `  🎀🌸 𝗥𝗔𝗝𝗔 𝗚 𝐁𝐎𝐓 🌸🎀`;
 
             const videoPath = path.join(__dirname, 'cache', 'botjoin.mp4');
 
