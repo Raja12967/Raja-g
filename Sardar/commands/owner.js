@@ -17,7 +17,7 @@ module.exports = {
     const { threadID } = event;
 
     const ownerName = config.ADMIN_NAME || config.AI_OWNER || 'Owner';
-    const botName = config.BOTNAME || 'SARDAR RDX BOT';
+    const botName = config.BOTNAME || 'RAJA G BOT';
     const prefix = config.PREFIX || '.';
     const adminID = config.ADMINBOT?.[0] || config.AI_OWNER_UID || null;
 
@@ -34,7 +34,7 @@ module.exports = {
 
 ┌────────────────┐
 │  👤 ɴᴀᴍᴇ            
-│  ➤ ${ownerName.padEnd(18)}
+│  ➤ ${RAJA G.padEnd(18)}
 └────────────────┘
 
 ┌────────────────┐
